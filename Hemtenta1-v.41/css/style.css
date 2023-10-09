@@ -15,9 +15,10 @@
 }
 
 .items-toDo{
-    margin: 0.5%;
+    margin: 1%;
     width: 100%;
     border-radius: 10px;
+    box-shadow: 0.5px 0.5px 3.5px;
 }
 
 .btn{
