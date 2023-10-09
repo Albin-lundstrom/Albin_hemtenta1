@@ -5,9 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hemtenta</title>
     <link rel=stylesheet href=./css/style.css>
-    <srcipt src="./js/app.js"></sricpt>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/app.js" defer></script>    
+    <script src="./js/bootstrap.min.js" defer></script>
 </head>
 <body>
-    
+    <div class="container-lg bg-info-subtle">
+        <div class="input-field">
+            <h1><u>To Do List</u></h1>
+            <div class="input-group mb-3">
+                <input type="text" id="inp-elm" class="form-control">
+                <button id="btn-inp" class="btn btn-primary input-group-text">ADD</button>
+            </div>
+        </div>
+        <div id="list-elm"></div>
+    </div>
 </body>
 </html>
