@@ -8,6 +8,7 @@ const liElm = document.getElementById("list-elm")
 
 // Eventlistener for button click
 inputBtn.addEventListener('click', () => {
+    inputValue.value = inputValue.value.trim()
     if (inputValue.value != ""){
         toDo.push(inputValue.value)
         inputValue.value = ""
